@@ -1,0 +1,155 @@
+body,h2{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+
+header a{
+    text-decoration: none;
+    
+    margin:20px;
+    color: white;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+    /* flex : 1 */
+}
+
+#logo{
+    flex:3;
+    
+}
+
+nav{
+    flex:2;
+    display: flex;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* color:red; */
+    /* border: 2px solid red; */
+}
+
+nav a{
+    flex:1;
+}
+
+nav a:hover{
+    color:red;
+}
+
+
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding:2.5em;
+}
+
+.q1{
+    font-size:3em;
+    font-weight: bolder;
+}
+
+.q2{
+    font-size: 1.5em;
+}
+
+.maintext div{
+    margin-top: .95em;
+}
+
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .75em;
+    border: 2px solid red;
+    color:red;
+    
+}
+
+.btn:hover{
+    color: red;
+}
+
+.landing{
+    background-image: url(../food/pexels-chanwalrus-958545.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+
+.menu{
+    color:white;
+    
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fx));
+    background-color: rgb(44, 42, 42);
+}
+
+#menuheading,#loc{
+    color:black;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+
+.locations{
+    color:white;
+    background-color: rgb(44, 42, 42);
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.menu th{
+    font-size: 2.5em;
+}
+
+table{
+    width:100%;
+    padding: 1em;
+}
+
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+
+.menu td:nth-child(1){
+    justify-self: left;
+    flex:1;
+}
+
+.menu td:nth-child(2){
+    justify-self: right;
+}
+
+.maincourse{
+    grid-row: span 2;
+}
+
+.locations h2{
+    margin-bottom: .8em;
+}
+
+.locations div{
+    flex:1;
+    padding: 1em;
+    min-width: 220px;
+}
+
+#copyright{
+    color:black;
+}
+
+footer{
+    padding: .25em 1em;
+}
